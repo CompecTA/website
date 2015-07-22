@@ -33,7 +33,7 @@ bilgi@parstanitim.com
     opacity: 0.75;
 }
 
-.footer {padding: 20px 0;}
+.footer {padding: 40px 0 20px 0;}
 #logo-footer {height: 30px; width: auto;}
 
 @media(max-width:991px){
