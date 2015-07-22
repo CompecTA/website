@@ -280,7 +280,10 @@ ul.pagination li.active a,
 }
 /* Breadcrumb
 ---------------------------------- */
-.banner .breadcrumb > li a:hover {
+.breadcrumb > li a {
+  color: #0c9ec7;
+}
+.breadcrumb > li a:hover {
   color: #0c9ec7;
 }
 /* Nav pills

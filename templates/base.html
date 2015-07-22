@@ -6,8 +6,9 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>CompecTA - IT Consulting & Integration Services</title>
+	<title>CompecTA | {% block title %}IT Consulting & Integration Services{% endblock %}</title>
 	<meta name="description" content="We develop secure, scalable, high available, high performance computing and virtual productive system and network solutions for any kind of bussiness and research needs.">
+    <meta name="keywords" content="hpc, high performance computing, cloud computing, high speed computing, high technology computing, virtualization, network solutions, infiniband, nvidia grid, IT solutions,">
 	<meta name="author" content="compecta.com">
 
 	<!-- Mobile Meta -->
@@ -43,7 +44,7 @@
 
 	<!-- scrollToTop -->
 	<!-- ================ -->
-	<div class="scrollToTop circle"><i class="icon-up-open-big"></i></div>
+	<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
 	
 	<!-- page wrapper start -->
 	<!-- ================ -->
@@ -283,9 +284,20 @@
 		</div>
 		<!-- header-container end -->
 
-		{% block slider %}{% endblock %}	
+		<!-- breadcrumb start -->
+		<!-- ================ -->
+		{% block breadcrumb %}{% endblock %}	
+		<!-- breadcrumb end -->
 
+		<!-- slider start -->
+		<!-- ============ -->
+		{% block slider %}{% endblock %}	
+		<!-- slider end -->
+
+		<!-- main-container start -->
+		<!-- ==================== -->
 		{% block content %}{% endblock %}
+		<!-- main-container end -->
 
 		<!-- footer top start -->
 		<!-- ================ -->
