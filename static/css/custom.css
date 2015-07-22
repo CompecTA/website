@@ -24,6 +24,18 @@ bilgi@parstanitim.com
 
 .bayrak {margin-top: -2px; width: 16px;}
 
+.clients .partner-image {
+    text-align: center;
+    width: auto;
+    height: 30px;
+    margin: 5px;
+    display: inline-block;
+    opacity: 0.75;
+}
+
+.footer {padding: 20px 0;}
+#logo-footer {height: 30px; width: auto;}
+
 @media(max-width:991px){
 	.fixed-header-on .header-left {padding:0;}
 }
