@@ -15,6 +15,7 @@ a:hover {
   color: #0c9ec7;
 }
 a:focus,
+a:visited,
 a:active {
   color: #0c9ec7;
 }
