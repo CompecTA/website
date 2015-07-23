@@ -20,7 +20,6 @@ bilgi@parstanitim.com
 .scrollToTop {right: 10px; bottom: 10px; width: 40px; height: 40px;}
 .scrollToTop i {line-height: 40px; font-size: 20px;}
 
-.fixed-header-on .header-left {padding:12px 0 0;}
 
 .bayrak {margin-top: -2px; width: 16px;}
 
@@ -34,12 +33,18 @@ bilgi@parstanitim.com
 }
 
 .footer {padding: 40px 0 20px 0;}
-#logo-footer {height: 30px; width: auto;}
+#logo-footer {height: 45px; width: auto;}
+#logo img {transition:none;}
+
+.header .logo img {max-height: 64px;}
+.fixed-header-on .header .logo img {max-height: 54px;}
+.header-left {padding:6px 0;}
+.fixed-header-on .header-left {padding:6px 0;}
 
 @media(max-width:991px){
 	.fixed-header-on .header-left {padding:0;}
 }
 @media(max-width:767px){
-	header:not(.full-width) .logo img {margin: 10px;}
-	header:not(.full-width) #logo_img {z-index: 102; position: absolute;}
+	header:not(.full-width) .logo img {margin: 5px;}
+	header:not(.full-width) #logo_img {z-index: 102; position: absolute; max-height: 40px;}
 }
