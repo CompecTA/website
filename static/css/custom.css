@@ -45,6 +45,6 @@ bilgi@parstanitim.com
 	.fixed-header-on .header-left {padding:0;}
 }
 @media(max-width:767px){
-	header:not(.full-width) .logo img {margin: 5px;}
-	header:not(.full-width) #logo_img {z-index: 102; position: absolute; max-height: 40px;}
+	header:not(.full-width) .logo img {margin: 8px 4px;}
+	header:not(.full-width) #logo_img {z-index: 102; position: absolute; max-height: 44px;}
 }
