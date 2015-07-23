@@ -342,12 +342,12 @@ function print_window() {
                 navigation: !0,
                 navigationText: !1
             }), e(".owl-carousel.clients").owlCarousel({
-                items: 11,
+                items: 12,
                 autoPlay: !0,
                 pagination: !1,
-                itemsDesktop: [1024, 8],
-                itemsDesktopSmall: [992, 8],
-                itemsTablet: [768, 8],
+                itemsDesktop: [1024, 12],
+                itemsDesktopSmall: [992, 10],
+                itemsTablet: [767, 8],
                 itemsMobile: [479, 4]
             }), e(".owl-carousel.content-slider").owlCarousel({
                 singleItem: !0,
