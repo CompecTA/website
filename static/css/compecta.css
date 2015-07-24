@@ -11,11 +11,10 @@ Mavi #
 a {
   color: #09afdf;
 }
-a:hover {
+a:hover, a:visited {
   color: #0c9ec7;
 }
 a:focus,
-a:visited,
 a:active {
   color: #0c9ec7;
 }
