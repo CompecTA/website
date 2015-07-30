@@ -19,7 +19,16 @@ bilgi@parstanitim.com
 
 .bayrak {margin-top: -2px; width: 16px;}
 
-.scrollToTop {right: 10px; bottom: 10px; width: 40px; height: 40px;}
+.scrollToTop {
+    right: 10px;
+    bottom: 10px;
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+}
+.scrollToTop:hover { background:  rgba(9,175,223,0.6);}
 .scrollToTop i {line-height: 40px; font-size: 20px;}
 
 .feature-box-2 a, .feature-box-2 a:visited, .feature-box-2 a:hover {color: #09afdf;}
