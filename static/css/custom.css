@@ -75,6 +75,9 @@ bilgi@parstanitim.com
     margin-right: 16px;
 }
 
+@media(min-width:991px){
+    .anamenu {float:right;}
+}
 @media(max-width:991px){
 	.fixed-header-on .header-left {padding:0;}
 	.main-container {padding: 10px 0;}
