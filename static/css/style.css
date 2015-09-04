@@ -526,6 +526,9 @@ header.full-width .with-dropdown-buttons .header-dropdown-buttons {
 .background-img-7 {
     background: url(../images/background-img-7.jpg)50% 0 no-repeat;
 }
+.background-img-8 {
+    background: url(../images/hpc/proscons.jpg)50% 0 no-repeat;
+}
 .fullscreen-bg {
     background: url(../images/fullscreen-bg.jpg)50% 0 no-repeat;
     position: fixed;
@@ -2982,10 +2985,10 @@ input[type=radio], input[type=checkbox] {
     top: 20px;
 }
 .feature-box-2 .body {
-    margin-left: 62px;
+    margin-left: 24px;
 }
 .feature-box-2.right .body {
-    margin-right: 62px;
+    margin-right: 24px;
     margin-left: 0;
     text-align: right;
 }

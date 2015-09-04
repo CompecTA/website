@@ -58,12 +58,19 @@ bilgi@parstanitim.com
 
 .footer {padding: 40px 0 20px 0;}
 #logo-footer {height: 45px; width: auto;}
-#logo img {transition:none;}
+#logo img {transition:none; padding: 5px 0;}
 
 .header .logo img {max-height: 64px;}
 .fixed-header-on .header .logo img {max-height: 54px;}
 .header-left {padding:6px 0;}
 .fixed-header-on .header-left {padding:6px 0;}
+
+.feature-box-2.hpc .body {
+    margin-left: 16px;
+}
+.feature-box-2.hpc.right .body {
+    margin-right: 16px;
+}
 
 @media(max-width:991px){
 	.fixed-header-on .header-left {padding:0;}
