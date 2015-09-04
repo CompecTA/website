@@ -26,6 +26,9 @@ mark,
 .text-default {
   color: #09afdf;
 }
+.text-red {
+  color: #cc3333;
+}
 /* Tables
 ---------------------------------- */
 .table.table-colored {
