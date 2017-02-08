@@ -546,7 +546,7 @@
                 itemsDesktop: [1024, 11],
                 itemsDesktopSmall: [992, 10],
                 itemsTablet: [767, 8],
-                itemsMobile: [479, 4]
+                itemsMobile: [479, 5]
 			});
 			$(".owl-carousel.content-slider").owlCarousel({
 				singleItem: true,

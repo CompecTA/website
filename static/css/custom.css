@@ -88,4 +88,5 @@ bilgi@parstanitim.com
 	header:not(.full-width) #logo_img {z-index: 102; position: absolute; max-height: 44px;}
 	.banner.dark-translucent-bg, .banner.default-translucent-bg, .banner.light-translucent-bg, .banner.parallax {padding-top: 40px;}
 	.main-container {padding: 0;}
+    .clients .partner-image {height: 22px;}
 }
