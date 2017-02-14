@@ -80,6 +80,7 @@ bilgi@parstanitim.com
     margin-left: 2.7em;
     color: gray;
 }
+.performance {font-size: 12px; min-height: 44px; font-weight: 500;}
 
 @media(min-width:991px){
     .anamenu {float:right;}
