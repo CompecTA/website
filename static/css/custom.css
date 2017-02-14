@@ -76,6 +76,11 @@ bilgi@parstanitim.com
     margin-right: 16px;
 }
 
+.anamenu .dropdown-menu small {
+    margin-left: 2.7em;
+    color: gray;
+}
+
 @media(min-width:991px){
     .anamenu {float:right;}
 }
