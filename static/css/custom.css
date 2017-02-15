@@ -84,6 +84,10 @@ bilgi@parstanitim.com
     font-size: 12px; 
     min-height: 44px; 
 }
+.bestfor {
+    font-size: 1em; 
+    min-height: 80px; 
+}
 
 @media(min-width:991px){
     .anamenu {float:right;}
