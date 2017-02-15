@@ -89,6 +89,15 @@ bilgi@parstanitim.com
     min-height: 80px; 
 }
 
+.freebirdFormviewerViewFormBanner {
+    background-color: white!important;
+    display: none!important;
+}
+
+iframe {
+    background: white!important;
+}
+
 @media(min-width:991px){
     .anamenu {float:right;}
 }
