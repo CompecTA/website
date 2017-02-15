@@ -11,7 +11,8 @@ if($Recipient) {
 
 	$Name = $_POST['name'];
 	$Email = $_POST['email'];
-	$Subject = $_POST['subject'];
+	$Subject = "[WEBSITE] ";
+	$Subject .= $_POST['subject'];
 	$Message = $_POST['message'];
 
 	$Email_body = "";
