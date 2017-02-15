@@ -23,7 +23,7 @@ if($Recipient) {
 				   "Message: " . $Message . "\n";
 
 	$Email_headers = "";
-	$Email_headers .= "Content-Type: text/html; charset=UTF-8";;
+	$Email_headers .= "Content-Type: text/html; charset=UTF-8";
 	$Email_headers .= 'From: ' . $Name . ' <' . $Email . '>' . "\r\n".
 					  "Reply-To: " .  $Email . "\r\n";
 
