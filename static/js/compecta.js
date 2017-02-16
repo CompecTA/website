@@ -322,7 +322,7 @@
 			});
 
 			$('.banner:not(.dark-bg) .slider-banner-container .slider-banner-boxedwidth').show().revolution({
-				delay:8000,
+				delay:6000,
 				startwidth:1140,
 				startheight:450,
 				
@@ -352,7 +352,7 @@
 				stopLoop:"off",
 				stopAfterLoops:-1,
 				stopAtSlide:-1,
-				onHoverStop: "off",
+				onHoverStop: "on",
 
 				shuffle:"off",
 				
