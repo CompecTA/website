@@ -9,18 +9,18 @@ $subject = $_POST['subject'];
 
 if($Recipient) {
 
-	$Name = $_POST['name'];
-	$Email = $_POST['email'];
+	$Name = htmlspecialchars($_POST['name'], ENT_QUOTES);
+	$Email = htmlspecialchars($_POST['email'], ENT_QUOTES);
 	$Subject = "[WEBSITE] ";
-	$Subject .= $_POST['subject'];
-	$Message = $_POST['message'];
+	$Subject .= htmlspecialchars($_POST['subject'], ENT_QUOTES);
+	$Message = htmlspecialchars($_POST['message'], ENT_QUOTES);
 
 	$Email_body = "";
-	$Email_body .= "Message from CompecTA website contact form" . "\n" .
-				   "From: " . $Name . "\n" .
-				   "Email: " . $Email . "\n" .
-				   "Subject: " . $Subject . "\n" .
-				   "Message: " . $Message . "\n";
+	$Email_body .= "<strong>Message from CompecTA website contact form</strong>" . "\n<br>" .
+				   "<strong>From:</strong> " . $Name . "\n<br>" .
+				   "<strong>Email:</strong> " . $Email . "\n<br>" .
+				   "<strong>Subject:</strong> " . $Subject . "\n<br>" .
+				   "<strong>Message:</strong> " . $Message . "\n";
 
 	$Email_headers = "";
 	$Email_headers .= "Content-Type: text/html; charset=UTF-8";
