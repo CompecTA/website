@@ -94,7 +94,8 @@ bilgi@parstanitim.com
     display: none!important;
 }
 
-.feature-box-2 .body {
+.feature-box-2 .body,
+.image-box .body {
     min-height: 200px;
 }
 
