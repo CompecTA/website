@@ -98,6 +98,12 @@ bilgi@parstanitim.com
     min-height: 200px;
 }
 
+.nv-preferred {
+    max-width: 240px;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
 iframe {
     background: white!important;
 }
@@ -115,4 +121,5 @@ iframe {
 	.banner.dark-translucent-bg, .banner.default-translucent-bg, .banner.light-translucent-bg, .banner.parallax {padding-top: 40px;}
 	.main-container {padding: 0;}
     .clients .partner-image {height: 22px;}
+    .nv-preferred {max-width: 100%;}
 }
