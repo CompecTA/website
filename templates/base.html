@@ -10,12 +10,12 @@
 	<meta name="description" content="We develop secure, scalable, high available, high performance computing and virtual productive system and network solutions for any kind of bussiness and research needs.">
     <meta name="keywords" content="hpc, high performance computing, cloud computing, high speed computing, high technology computing, virtualization, network solutions, infiniband, nvidia grid, IT solutions,">
 	<meta name="author" content="compecta.com">
-
     <!-- Mobil Tarayıcı Rengi -->
     <meta name="theme-color" content="#1b75bc">
     <meta name="msapplication-navbutton-color" content="#1b75bc">
     <meta name="apple-mobile-web-app-status-bar-style" content="#1b75bc">
-
+    <!-- Website Dil Alternatifi -->
+	<link rel="alternate" hreflang="tr" href="http://www.compecta.com.tr/{% block hreflang %}index.html{% endblock %}">
 	<!-- Mobile Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Favicon -->
@@ -75,8 +75,8 @@
 									<div class="btn-group dropdown">
 										<button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe"></i>Language &nbsp;</button>
 										<ul class="dropdown-menu dropdown-animation">
-											<li class=""><a href="http://compecta.com.tr"><img alt="Türkçe" src="images/tr.jpg" class="bayrak"> TÜRKÇE</a></li>
-											<li class=""><a href="http://compecta.com" class="btn disabled" role="button"><img alt="English" src="images/en.jpg" class="bayrak"> ENGLISH <i class="fa fa-check"></i></a></li>
+											<li class=""><a href="http://www.compecta.com.tr/{% block langlink %}index.html{% endblock %}"><img alt="Türkçe" src="images/tr.jpg" class="bayrak"> TÜRKÇE</a></li>
+											<li class=""><a href="#" class="btn disabled" role="button"><img alt="English" src="images/en.jpg" class="bayrak"> ENGLISH <i class="fa fa-check"></i></a></li>
 										</ul>
 									</div>
 								</div>
@@ -84,8 +84,8 @@
 									<div class="btn-group dropdown">
 										<button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe"></i>Language &nbsp;</button>
 										<ul class="dropdown-menu dropdown-animation">
-											<li class=""><a href="http://compecta.com.tr"><img alt="Türkçe" src="images/tr.jpg" class="bayrak"> TÜRKÇE</a></li>
-											<li class=""><a href="http://compecta.com" class="btn disabled" role="button"><img alt="English" src="images/en.jpg" class="bayrak"> ENGLISH <i class="fa fa-check"></i></a></li>
+											<li class=""><a href="http://www.compecta.com.tr/{% block langlinkmobile %}index.html{% endblock %}"><img alt="Türkçe" src="images/tr.jpg" class="bayrak"> TÜRKÇE</a></li>
+											<li class=""><a href="#" class="btn disabled" role="button"><img alt="English" src="images/en.jpg" class="bayrak"> ENGLISH <i class="fa fa-check"></i></a></li>
 										</ul>
 									</div>
 								</div>
