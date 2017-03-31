@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block title %}BeeGFS - The Leading Parallel Cluster File System{% endblock %}
+{% block breadcrumbdropdown %}{% include "products.html" %}{% endblock %}
+{% block breadcrumbactive %}BeeGFS{% endblock %}
+{% block hreflang %}{% block langlinkmobile %}{% block langlink %}beegfs.html{% endblock %}{% endblock %}{% endblock %}
+{% block slider %}
+			<!-- banner start -->
+			<!-- ================ -->
+			<div class="banner dark-translucent-bg" style="background-image:url('images/banners/beegfs.jpg'); background-position: 50% 30%;">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-10 text-center col-md-offset-1 pv-20">
+							<h3 class="title object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">BeeGFS</h3>
+							<div class="separator object-non-visible mt-10" data-animation-effect="fadeIn" data-effect-delay="150"></div>
+							<p class="text-center object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">The Leading Parallel Cluster File System</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- banner end -->
+{% endblock %}
+
+{% block content %}
+			<!-- section start -->
+			<!-- ================ -->
+			<section class="full-width-section pv-40 border-clear">
+				<div class="container">
+					<div class="row space-top">
+						<div class="col-md-12 text-center">
+							<img class="visible-xs visible-sm" alt="NVIDIA DGX-1" src="images/dgx-1-front.jpg">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<h3>What is BeeGFS?</h3>
+							<div class="separator-2"></div>
+							<p>BeeGFS (formerly FhGFS) is the leading parallel cluster file system, developed with a strong focus on performance and designed for very easy installation and management. If I/O intensive workloads are your problem, BeeGFS is the solution.</p>
+						</div>
+						<div class="col-md-4">
+							<h3>Why use BeeGFS?</h3>
+							<div class="separator-2"></div>
+							<p>BeeGFS transparently spreads user data across multiple servers. By increasing the number of servers and disks in the system, you can simply scale performance and capacity of the file system to the level that you need, seamlessly from small clusters up to enterprise-class systems with thousands of nodes.</p>
+						</div>
+						<div class="col-md-4">
+							<h3>Get The Most Out Of Your Data</h3>
+							<div class="separator-2"></div>
+							<p>The flexibility, robustness, and outstanding performance ofBeeGFS help our customers around the globe toincreaseproductivityby delivering results faster and byenabling newdata analysis methodsthat were not possible without theadvantages of BeeGFS.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- section end -->
+			{% include "getinfo.html" %}
+{% endblock %}
