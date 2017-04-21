@@ -59,6 +59,13 @@ bilgi@parstanitim.com
     display: inline-block;
     opacity: 0.75;
 }
+.clients .beegfs-image {
+    text-align: center;
+    width: auto;
+    height: 30px;
+    margin: 10px 2px;
+    display: inline-block;
+}
 
 .footer {padding: 40px 0 20px 0;}
 #logo-footer {height: 52px; width: auto;}
