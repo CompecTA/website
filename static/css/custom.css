@@ -179,6 +179,9 @@ bilgi@parstanitim.com
 .badge.badge-red {
   background-color: #ee3333;
 }
+.badge.badge-default {
+  background-color: #1b75bc;
+}
 
 /*Blink Effect*/
 .blink {
