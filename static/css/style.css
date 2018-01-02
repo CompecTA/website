@@ -186,14 +186,14 @@ a:active {
   text-decoration: underline!important;
 }
 .dark .footer .link-dark {
-  color: #777777;
+  color: #bbb;
   text-decoration: none!important;
 }
 .dark .footer {
-  color: #777777;
+  color: #bbb;
 }
 .dark .footer .link-dark:hover {
-  color: #777777;
+  color: #bbb;
   text-decoration: underline!important;
 }
 .link-light {
