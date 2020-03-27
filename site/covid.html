@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %}COVID-19 Coronavirus Outbreak{% endblock %}
+{% block breadcrumbactive %}COVID-19 Announcement{% endblock %}
+{% block hreflang %}{% block langlinkmobile %}{% block langlink %}covid.html{% endblock %}{% endblock %}{% endblock %}
+{% block slider %}
+			<!-- banner start -->
+			<!-- ================ -->
+			<div class="banner dark-translucent-bg" style="background-image:url('images/banners/covid-19.jpg'); background-position: 50% 25%;">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-10 text-center col-md-offset-1 pv-20">
+							<h3 class="title object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">Fight against COVID-19</h3>
+							<div class="separator object-non-visible mt-10" data-animation-effect="fadeIn" data-effect-delay="150"></div>
+							<p class="text-center object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">To help researchers in the fight against Coronavirus, CompecTA is providing free CPU/GPU time on CompecTA FeynmanGrid HPC Cluster</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- banner end -->
+{% endblock %}
+
+{% block content %}
+			<!-- section start -->
+			<!-- ================ -->
+			<section class="full-width-section pv-40 border-clear">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-12">
+									<h3><strong>COVID-19 Researchers get free HPC access!</strong></h3>
+									<div class="separator-2"></div>
+									<p>To all the researchers in the fight against Coronavirus (COVID-19),</p>
+									<p>CompecTA is sharing its High Performance Computing Cluster and resources with researchers for free. The CompecTA FeynmanGrid HPC Cluster serving to many academicians and researchers for a long time is now open to all the researchers doing Coronovirus research. We would be glad to help in your research in the novel coronavirus and help inform a response.</p>
+									<p>Also our HPC experts will provide you application level support and assist you in application installations, cluster usage, job scripting and job scheduling. To help you focus on your research and stop the outbreak.</p>
+								</div>
+								<div class="col-md-12">
+									<h3><strong>Stay at home, Work at home</strong></h3>
+									<div class="separator-2"></div>
+									<p>With the remote access to supercomputers researchers may stay safe at home in the same time doing their research accessing resources remotely.</p>
+									<p>Please contact us now to get your free HPC Cluster access.</p>
+									<a href="mailto:info@compecta.com" class="btn btn-lg btn-default btn-animated">Contact Us<i class="fa fa-arrow-right pl-20"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<img class="mt-20" src="images/mail-feynmangrid-banner.jpg" alt="System Architecture">
+							<img class="mt-20" src="images/coronavirus-structure.jpg" alt="System Architecture">
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- section end -->
+			{% include "getinfo.html" %}
+{% endblock %}
