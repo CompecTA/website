@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://compecta.com/</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://compecta.com/covid.html</loc>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://compecta.com/index.html</loc>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://compecta.com/novamini.html</loc>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://compecta.com/nova.html</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://compecta.com/supernova.html</loc>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://compecta.com/supernovax.html</loc>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://compecta.com/dgx-1.html</loc>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://compecta.com/dgx-a100.html</loc>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://compecta.com/dgx-h100.html</loc>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://compecta.com/dgxstation.html</loc>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://compecta.com/dgxstation-a100.html</loc>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://compecta.com/feynmangrid.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://compecta.com/feynmanstorz.html</loc>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://compecta.com/starterpack.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://compecta.com/hpc.html</loc>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://compecta.com/deeplearning.html</loc>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://compecta.com/beegfs.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://compecta.com/renting.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://compecta.com/cloud.html</loc>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://compecta.com/virtualization.html</loc>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://compecta.com/partners.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://compecta.com/references.html</loc>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://compecta.com/about.html</loc>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://compecta.com/contact.html</loc>
+  <priority>0.80</priority>
+</url>
+
+</urlset>
